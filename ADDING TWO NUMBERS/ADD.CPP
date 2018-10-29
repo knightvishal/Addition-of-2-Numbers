@@ -6,8 +6,11 @@ int main()
 {
 clrscr();
 int a,b;
-cout<<"ENTER THE 2 NUMBERS\n";
-cin>>a>>b;
-cout<<a+b;
+cout<<"Enter 1st Number"<<endl;
+cin>>a;
+cout<<"Enter 2nd number"<<endl;
+cin>>b;
+ result=a+b;
+cout<<"the result :"<<result<<endl;
 getch();
 }
