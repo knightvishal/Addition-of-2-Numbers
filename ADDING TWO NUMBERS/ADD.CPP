@@ -8,6 +8,6 @@ clrscr();
 int a,b;
 cout<<"ENTER THE 2 NUMBERS\n";
 cin>>a>>b;
-cout<<a+b;
+cout<<"The sum is:"<<a+b;
 getch();
 }
